@@ -62,11 +62,11 @@ This project is an **interactive chroma key compositor** built with C++ and Open
 Clone the repository and build all projects in one step:
 
 ```bash
-https://github.com/sancho11/chroma_key.git
+git clone https://github.com/sancho11/chroma_key.git
 cd chroma_key
 mkdir build && cd build
 cmake ..
-make -j$(nproc)
+make
 ```
 
 Executable will be placed in the bin directory `build/bin/chroma_key`.
